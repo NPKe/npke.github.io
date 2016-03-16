@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,vietnamese);
+
+html, body
+{
+    height: 100%;
+}
+
+@font-face 
+{
+    font-family: Montserrat;
+    src: url('fonts/Montserrat.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    background: url(images/bg.jpg) no-repeat top center fixed;
+    transition: 1s;
+    background-size: cover;
+    color: #ffffff!important;
+    height: 100%;
+}
+
+#wrapper
+{
+    background: rgba(0, 0, 0, 0.4);
+    min-height: 100%;
+}
+
+.team-heading
+{
+    text-align: center;
+}
+
+.team-heading h2
+{
+    font-weight: 700;
+    font-size: 40px;
+    color: #fed136;
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.team-heading h4
+{
+    font-style: italic;
+    font-family: "Roboto Slab", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.team-photo
+{
+    height: 300px;
+}
+
+.team-member
+{
+    padding-bottom: 50px;
+}
+
+.member-info, .member-contact
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.member-info > h4
+{
+    font-weight: bolder;
+}
+
+.team-role
+{
+    font-style: italic;
+    font-family: "Roboto Slab", "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.icon-link
+{
+    border-radius: 100%;
+    background: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 2px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.icon-link:hover
+{
+    background: #fed136;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+footer
+{
+    background: #ffffff;
+}
+
+footer .row
+{
+    width: 1140px;
+    padding: 15px 0px;
+    margin: auto;
+    text-align: center
+}
+
+ul
+{
+    list-style: none;
+}
+
+footer ul>li
+{
+    float: left;
+    padding: 0px 20px;
+    margin: auto;
+}
+.logo a {
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 30px;
+    color: #fed136;
+    float: left;
+    text-decoration: none;
+}
+
+nav {
+    background: none;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+.memu-bar a {
+    color: #ffffff!important;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none!important;
+}
+
+.memu-bar a:hover
+{
+    color: #fed136!important;
+}
+
+.menu-li {
+    float: right;
+    font-size: 16px;
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+footer span
+{
+    color: #333;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+footer a 
+{
+    color: #333;
+    font-weight: bold;
+}
+
+footer a:hover
+{
+    color: #fed136;
+}
+
+.member-profile {
+    width: 920px;
+    margin: auto;
+    text-align: center;
+    margin-top: -50px;
+    background: #ffffff;
+}
+
+.member-avatar {
+    margin-top: -100px;
+    margin-left: 140px;
+    width: 780px;
+}
+
+.member-name {
+    text-align: left;
+    padding-top: 100px;
+    color: #fed136;    
+}
+
+.detail {
+    margin-top: 50px;
+    margin-left: 140px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    padding-bottom: 50px;
+    width: 700px;
+}
+
+.info-row {
+    padding: 10px 0px;
+    border-bottom: #000 1px solid;
+    font-family: "Roboto Slab", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.table {
+    width: 
+}
+
+.member-detail {
+    padding-bottom: 50px;
+    height: 100%;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.member-detail a {
+    color: #fed136!important;
+}
+
+.logo a:hover {
+    color: #fed136;
+    text-decoration: none;
+}
+
+.member-contact1 {
+    display: block;
+    box-sizing: border-box;    
+}
+
+.col-md-4 {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 13px;
+}
+
+.student-id {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.right-footer {
+    line-height: 42px;
+}
+
+.nav-profile-page {
+    background: #222;
+    padding: 10px 0px;
+    margin-bottom: 50px;
+}
+
+.profile-page {
+    background: #f7f7f7;
+    transition: 1s;
+    color: #ffffff!important;
+    height: 100vh;
+}
+
+.full-name {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    padding-left: 20px;
+    font-size: 26px;
+}
+
+.container-profile-page {
+    height: 100%;
+}
+
+
+
+.fa {
+    font-family: "Montserrat", "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-weight: bold;
+}
